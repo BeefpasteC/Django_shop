@@ -1,0 +1,62 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+    {{ goods.goods_name }}详情
+{% endblock %}
+{% block content %}
+    <table class="table">
+        <tr>
+            <td rowspan="3">
+                <img style="width: 260px;height: 260px" src="/static/{{ goods.goods_image }}" alt="">
+            </td>
+            <th>
+                商品名称
+            </th>
+            <td colspan="3">
+                {{ goods.goods_name }}
+            </td>
+        </tr>
+        <tr>
+            <th>
+                商品价格
+            </th>
+            <td>
+                ￥&nbsp;&nbsp;{{ goods.goods_price }}
+            </td>
+            <th>
+                商品库存
+            </th>
+            <td>
+                {{ goods.goods_number }}&nbsp;&nbsp;件
+            </td>
+        </tr>
+        <tr>
+
+            <th>
+                生产日期
+            </th>
+            <td>
+                {{ goods.goods_date|date:'Y-m-d' }}
+            </td>
+            <th>
+                保质期
+            </th>
+            <td>
+                {{ goods.goods_safeDate }}&nbsp;&nbsp;月
+            </td>
+        </tr>
+        <tr>
+            <th colspan="5" style="text-align: center">
+                商品描述
+            </th>
+        </tr>
+        <tr>
+            <td colspan="5" >
+                {{ goods.goods_description|safe }}
+
+            </td>
+        </tr>
+    </table>
+    <a href="/shop/ug/{{ goods_id }}/" class="btn btn-primary btn-block">修改商品</a>
+{% endblock %}
+

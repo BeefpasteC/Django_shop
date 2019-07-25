@@ -24,7 +24,7 @@
         <tbody>
             {% for goods in page %}
                 <tr>
-                    <td>{{ goods.goods_name }}</td>
+                    <td><a href="/shop/gs/{{ goods.id }}">{{ goods.goods_name }}</a></td>
                     <td>
                         <input type="text" value="{{ goods.goods_price }}">
                     </td>
