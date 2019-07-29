@@ -2,15 +2,21 @@ from django.urls import path,re_path
 from Shopapp.views import *
 
 urlpatterns = [
-    path('register/', register),
-    path('login/', login),
-    path('index/', index),
-    path('rs/', resgister_store),
-    path('ag/', add_goods),
-    re_path(r'sl/(?P<state>\w+)', shop_list),
-    path('e4/', error_404),
-    re_path(r'^gs/(?P<goods_id>\d+)', goods_summary),
-    re_path(r'ug/(?P<goods_id>\d+)', update_goods),
-    re_path(r'sg/(?P<state>\w+)/', set_goods),
+    path('register/', register),# 注册
+    path('login/', login),#登录
+    path('index/', index),#首页
+    path('rs/', resgister_store),#注册店铺
+    path('ag/', add_goods),#添加商品
+    re_path(r'sl/(?P<state>\w+)', shop_list),# 商品列表
+    path('e4/', error_404),#
+    re_path(r'^gs/(?P<goods_id>\d+)', goods_summary),# 商品分类
+    re_path(r'ug/(?P<goods_id>\d+)', update_goods),# 商品详情
+    re_path(r'sg/(?P<state>\w+)/', set_goods),# 商品上下架
+    path('gt/', goods_type),# 商品类型
+    path('ol/', order_list),# 订单
+
+    path('dgt/', delete_goods_types),# 删除商品类型
+    path('gts/', goods_type_summary),# 商品类型分类
 ]
+
 

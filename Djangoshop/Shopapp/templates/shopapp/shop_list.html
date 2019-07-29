@@ -29,8 +29,8 @@
                         <input type="text" value="{{ goods.goods_price }}">
                     </td>
                     <td>{{ goods.goods_number }}</td>
-                    <td>{{ goods.goods_date }}</td>
-                    <td>{{ goods.goods_safeDate|safe }}</td>
+                    <td>{{ goods.goods_date|date:"Y-m-d" }}</td>
+                    <td>{{ goods.goods_safeDate }}</td>
                     <td>
                         {% ifequal state 'up' %}
                         <a class="btn btn-danger" href="/shop/sg/down/?id={{ goods.id }}">下架</a>

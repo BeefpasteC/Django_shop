@@ -5,6 +5,8 @@ from django.core.paginator import Paginator
 from django.http import HttpResponseRedirect
 
 from Shopapp.models import *
+from Buyerapp.models import *
+
 
 
 # 密码加密
@@ -135,6 +137,7 @@ def add_goods(request):
     """
     负责添加商品
     """
+    goodstype_list = GoodsType.objects.all()
     if request.method == "POST":
         #获取post请求
         goods_name = request.POST.get("goods_name")
@@ -145,6 +148,7 @@ def add_goods(request):
         goods_safeDate = request.POST.get("goods_safeDate")
         goods_store = request.COOKIES.get("has_store")
         goods_image = request.FILES.get("goods_image")
+        goods_type = request.POST.get('goods_type')
         #开始保存数据
         goods = Goods()
         goods.goods_name = goods_name
@@ -154,14 +158,11 @@ def add_goods(request):
         goods.goods_date = goods_date
         goods.goods_safeDate = goods_safeDate
         goods.goods_image = goods_image
+        goods.goods_type = GoodsType.objects.get(id = int(goods_type))
+        goods.store_id = Store.objects.get(id= int(goods_store))
         goods.save()
-        #保存多对多数据
-        goods.store_id.add(
-            Store.objects.get(id = int(goods_store))
-        )
-        goods.save()
-        return HttpResponseRedirect("/shop/sl/")
-    return render(request,"shopapp/add_goods.html")
+        return HttpResponseRedirect("/shop/sl/up/")
+    return render(request,"shopapp/add_goods.html",locals())
 
 # 商品列表
 @ cook_session
@@ -236,6 +237,7 @@ def error_404(request):
 
 
 # 商品上下架
+@ cook_session
 def set_goods(request,state):
     if state == "up":
         state_num = 1
@@ -254,5 +256,36 @@ def set_goods(request,state):
 
 
 
+# 商品类别分类
 
+def goods_type(request):
+    goodstype_list = GoodsType.objects.all()
+    if request.method == 'POST':
+        username = request.POST.get('name')
+        description = request.POST.get('description')
+        picture = request.FILES.get('picture')
+        goodstype = GoodsType()
+        goodstype.name = username
+        goodstype.description = description
+        goodstype.picture = picture
+        goodstype.save()
+        return HttpResponseRedirect('/shop/gt/')
+    return render(request,'shopapp/goods_type.html',locals())
 
+def delete_goods_types(request):
+    id = int(request.GET.get('id'))
+    goodstype = GoodsType.objects.get(id = id)
+    goodstype.delete()
+    return HttpResponseRedirect('/shop/gt/')
+
+# 商品类型详情
+def goods_type_summary(request):
+    id = int(request.GET.get('id'))
+    goods = GoodsType.objects.filter(id = id).first()
+    return render(request,'shopapp/goods_type_summary.html',locals())
+
+# 查询所有订单
+def order_list(request):
+    store_id = request.COOKIES.get('has_store')
+    order_list = OrderDetail.objects.filter(order_id__order_status=2,goods_store=store_id)
+    return render(request,'shopapp/order_list.html',locals())
