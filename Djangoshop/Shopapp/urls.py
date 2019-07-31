@@ -1,6 +1,12 @@
 from django.urls import path,re_path
 from Shopapp.views import *
 
+
+
+
+
+
+
 urlpatterns = [
     path('register/', register),# 注册
     path('login/', login),#登录
@@ -14,6 +20,8 @@ urlpatterns = [
     re_path(r'sg/(?P<state>\w+)/', set_goods),# 商品上下架
     path('gt/', goods_type),# 商品类型
     path('ol/', order_list),# 订单
+
+    path('agl/',ajax_goods_list), # vue 接口
 
     path('dgt/', delete_goods_types),# 删除商品类型
     path('gts/', goods_type_summary),# 商品类型分类

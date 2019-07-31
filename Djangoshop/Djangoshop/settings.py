@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Shopapp',
     'Buyerapp',
     'ckeditor',
+    'rest_framework',
     'ckeditor_uploader'
 ]
 
@@ -129,7 +130,15 @@ STATICFILES_DIRS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'static')
 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES':[
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ],
+    'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE':5
 
+
+}
 
 # 上传图片用的模块
 CKEDITOR_UPLOAD_PATH = 'static/upload'

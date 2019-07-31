@@ -1,11 +1,13 @@
 import hashlib
 
+from rest_framework import viewsets
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from django.http import HttpResponseRedirect
 
 from Shopapp.models import *
 from Buyerapp.models import *
+from Shopapp.serializers import *
 
 
 
@@ -289,3 +291,25 @@ def order_list(request):
     store_id = request.COOKIES.get('has_store')
     order_list = OrderDetail.objects.filter(order_id__order_status=2,goods_store=store_id)
     return render(request,'shopapp/order_list.html',locals())
+
+
+
+
+# 当前部分是为了练习接口的查询逻辑
+class UserViewSet(viewsets.ModelViewSet):
+    '''
+    返回具体查询的内容
+    '''
+    queryset = Goods.objects.all() # 具体返回的数据
+    serializer_class = UserSerializer # 指定过滤的类
+
+
+class TypeViewSet(viewsets.ModelViewSet):
+    queryset = GoodsType.objects.all()
+    serializer_class = GoodsTypeSerializer
+
+def ajax_goods_list(request):
+
+    return render(request,'shopapp/ajax_goods_list.html')
+
+
