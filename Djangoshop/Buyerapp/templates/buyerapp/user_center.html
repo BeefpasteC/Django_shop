@@ -19,12 +19,17 @@
 		</div>
 		<div class="right_content clearfix">
 				<div class="info_con clearfix">
-				<h3 class="common_title2">基本信息</h3>
+                    <span class="common_title2">基本信息</span>
+                    <span style="margin-left: 20px;margin-right: 20px">|</span>
+                    <span class="common_title2">完善信息</span>
+
+
 						<ul class="user_info_list">
-							<li><span>用户名：</span>{{ buyer.username }}</li>
-							<li><span>联系方式：</span>{{ buyer.phone }}</li>
-							<li><span>联系地址：</span>{{ buyer.connect_address }}</li>
+							<li><span>用户名：</span>{{ user.username }}</li>
+							<li><span>联系方式：</span>{{ user.phone }}</li>
+							<li><span>联系地址：</span>{{ user.connect_address }}</li>
 						</ul>
+
 				</div>
 
 				<h3 class="common_title2">最近浏览</h3>
@@ -88,5 +93,7 @@
 
 {% endblock %}
 {% block script %}
-
+    <script src="/static/buyerapp/js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 {% endblock %}

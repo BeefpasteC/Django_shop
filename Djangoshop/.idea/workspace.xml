@@ -2,143 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f357d06a-0838-4a29-9e77-c487ea611b20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Buyerapp/Alipay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/migrations/0002_auto_20190725_1605.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/adv01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/adv02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/banner01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/banner02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/banner03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/banner04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/banner05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/banner06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/fruit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods018.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods/goods021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/goods_detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/icons02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/interval_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/left_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/login_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/logo02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/pay_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/register_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/shop_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/slide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/slide02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/slide03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/images/slide04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/static/buyerapp/js/slide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/order_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/pay_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/receive_adress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/shopping_cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/submit_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buyerapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopapp/templates/shopapp/goods_type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopapp/templates/shopapp/goods_type_summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopapp/templates/shopapp/order_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3db1dfad-6cb5-4283-8d41-85fd8214e19c.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangoshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Djangoshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangoshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Djangoshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyerapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Buyerapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/shopping_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/shopping_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyerapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Buyerapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyerapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Buyerapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shopapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopapp/templates/shopapp/add_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopapp/templates/shopapp/add_goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopapp/templates/shopapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopapp/templates/shopapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopapp/templates/shopapp/shop_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopapp/templates/shopapp/shop_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/1_JMuVlPk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/1_XzBY1YC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/1_YVOmBBM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/1_s5pd2y6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/1_yZgxUka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/2_5lrhXTG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/2_jfw39ho.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/3_E6bEyRB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/3_dOgvsUD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/4_90Q8ynn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/4_RyoZpHK.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/5_gAmYVbl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_0ohkamg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_0onuX7P.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_0tGBQMz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_8t4VQCI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_DjlT6AB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_IL7uaPZ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_KXJvRBl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_M8iXL67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_ORUKks2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_Ok4k7gq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_RHk9dIF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_S0k7IwH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_UvZ8aQN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_VJixn0M.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_XBsJU7Y.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_eAQecsF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_gIw2DBI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_gQRgucR.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_hCoFFl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_ppJ3BBi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_qrzzqAK.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_rNBXODQ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_tIOoBu9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_tmcV6cf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/6_vv1YEob.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/u2883371155550515503fm27gp0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/u3745082249948822821fm26gp0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/u41904500773599681796fm27gp0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/store/images/u41904500773599681796fm27gp0_e3yyCPg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,40 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Buyerapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Buyerapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1169">
-              <caret line="234" column="30" lean-forward="true" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#1516#1939#0" />
-                <element signature="e#1971#2143#0" />
-                <element signature="e#2187#2817#0" />
-                <element signature="e#2855#3152#0" />
-                <element signature="e#3192#4180#0" />
-                <element signature="e#4321#7145#0" />
-                <element signature="e#7614#7847#0" />
-                <element signature="e#7554#8055#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopapp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -226,46 +67,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Shopapp/views.py">
+        <entry file="file://$PROJECT_DIR$/Buyerapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="290" column="60" selection-start-line="290" selection-start-column="60" selection-end-line="290" selection-end-column="60" />
+            <state relative-caret-position="165">
+              <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#212#316#0" />
-                <element signature="e#350#850#0" />
-                <element signature="e#894#1323#0" />
-                <element signature="e#2641#3061#0" />
-                <element signature="e#3119#4516#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/order_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-277">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Buyerapp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/order_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1487">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="18" />
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -273,8 +81,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shopapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="6">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="46" column="112" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_goodstype">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="da745f51-d969-4ee8-b2ea-79a33cf5aa16">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -301,6 +132,7 @@
       <find>css/</find>
       <find>images</find>
       <find>images/</find>
+      <find>count</find>
     </findStrings>
     <replaceStrings>
       <replace>搜索</replace>
@@ -339,30 +171,29 @@
         <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/place_order.html" />
         <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/base.html" />
         <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/order_list.html" />
-        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/index.html" />
         <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/receive_adress.html" />
-        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center.html" />
         <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_list.html" />
-        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/shopping_cart.html" />
-        <option value="$PROJECT_DIR$/Buyerapp/urls.py" />
-        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_description.html" />
         <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/submit_order.html" />
-        <option value="$PROJECT_DIR$/Shopapp/models.py" />
-        <option value="$PROJECT_DIR$/Buyerapp/models.py" />
         <option value="$PROJECT_DIR$/Shopapp/templates/shopapp/order_list.html" />
-        <option value="$PROJECT_DIR$/Buyerapp/views.py" />
         <option value="$PROJECT_DIR$/Shopapp/views.py" />
         <option value="$PROJECT_DIR$/Shopapp/urls.py" />
         <option value="$PROJECT_DIR$/Shopapp/templates/shopapp/base.html" />
         <option value="$PROJECT_DIR$/../README.md" />
+        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center.html" />
+        <option value="$PROJECT_DIR$/Buyerapp/urls.py" />
+        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/index.html" />
+        <option value="$PROJECT_DIR$/Buyerapp/models.py" />
+        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_description.html" />
+        <option value="$PROJECT_DIR$/Buyerapp/templates/buyerapp/shopping_cart.html" />
+        <option value="$PROJECT_DIR$/Shopapp/models.py" />
+        <option value="$PROJECT_DIR$/Buyerapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-22" />
-    <option name="y" value="11" />
-    <option name="width" value="1361" />
-    <option name="height" value="695" />
+    <option name="x" value="9" />
+    <option name="width" value="1385" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -383,17 +214,6 @@
             <path>
               <item name="Djangoshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangoshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Buyerapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Buyerapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoshop" type="462c0819:PsiDirectoryNode" />
               <item name="Shopapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -401,13 +221,6 @@
               <item name="Djangoshop" type="462c0819:PsiDirectoryNode" />
               <item name="Shopapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Shopapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="shopapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -420,7 +233,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Django-Blog/DjangoBlog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -544,12 +357,13 @@
       <workItem from="1564034096558" duration="27561000" />
       <workItem from="1564101477814" duration="24592000" />
       <workItem from="1564192916895" duration="15624000" />
-      <workItem from="1564358702866" duration="31331000" />
+      <workItem from="1564358702866" duration="38984000" />
+      <workItem from="1564445567046" duration="38008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196296000" />
+    <option name="totallyTimeSpent" value="241957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,16 +375,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.022692889" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28150573" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.06382979" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5139116" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.24222586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
@@ -586,7 +400,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.30030257" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32753405" />
+      <window_info anchor="right" id="Database" order="4" weight="0.2535849" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,54 +410,6 @@
     <SUITE FILE_PATH="coverage/Djangoshop$Alipay.coverage" NAME="Alipay Coverage Results" MODIFIED="1564133421311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Buyerapp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/store/images/page_1_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/buyerapp/images/down.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/buyerapp/images/banner02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Djangoshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/goods_type_summary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="11bc8256-cbe6-4025-898f-8eb72067e730">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/add_goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/shop_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/cart.html" />
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center_info.html" />
     <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center_order.html" />
     <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/list.html" />
     <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/place_order.html" />
@@ -665,16 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/goods_type.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-          <folding>
-            <element signature="e#1596#3018#0#HTML" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,30 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="43" column="44" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/shopping_cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#699#882#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/pay_result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -742,37 +474,7 @@
     <entry file="file://$USER_HOME$/AppData/Roaming/Tencent/QQ/Temp/N~SX]BSV$(%SP)F}HU~2GIT.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="48" column="72" lean-forward="true" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/submit_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_store">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="0496bb25-471c-43be-b827-46cf2ea47327">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_storetype">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="0496bb25-471c-43be-b827-46cf2ea47327">
           <filtering>
@@ -791,24 +493,6 @@
       </provider>
     </entry>
     <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_goods_store_id">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="0496bb25-471c-43be-b827-46cf2ea47327">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_store_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="0496bb25-471c-43be-b827-46cf2ea47327">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_goodstype">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="0496bb25-471c-43be-b827-46cf2ea47327">
           <filtering>
@@ -844,84 +528,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/order_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1487">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="18" />
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="85" column="55" lean-forward="true" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buyerapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1169">
-          <caret line="234" column="30" lean-forward="true" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#1516#1939#0" />
-            <element signature="e#1971#2143#0" />
-            <element signature="e#2187#2817#0" />
-            <element signature="e#2855#3152#0" />
-            <element signature="e#3192#4180#0" />
-            <element signature="e#4321#7145#0" />
-            <element signature="e#7614#7847#0" />
-            <element signature="e#7554#8055#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/order_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -935,10 +546,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/order_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Shopapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="290" column="60" selection-start-line="290" selection-start-column="60" selection-end-line="290" selection-end-column="60" />
+        <state relative-caret-position="951">
+          <caret line="276" column="46" lean-forward="true" selection-start-line="276" selection-start-column="46" selection-end-line="276" selection-end-column="46" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#212#316#0" />
@@ -946,6 +564,214 @@
             <element signature="e#894#1323#0" />
             <element signature="e#2641#3061#0" />
             <element signature="e#3119#4516#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/add_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/update_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1182">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/user_center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/auth_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="da745f51-d969-4ee8-b2ea-79a33cf5aa16">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopapp/templates/shopapp/goods_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="65" column="85" selection-start-line="65" selection-start-column="85" selection-end-line="65" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/envs/DjangoPath/Lib/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Buyerapp_cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="da745f51-d969-4ee8-b2ea-79a33cf5aa16">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/shopping_cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#1904#2353#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/submit_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1234">
+          <caret line="115" column="46" lean-forward="true" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/envs/DjangoPath/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_store_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="da745f51-d969-4ee8-b2ea-79a33cf5aa16">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_storetype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="da745f51-d969-4ee8-b2ea-79a33cf5aa16">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7dbddda-0793-4400-bab7-e4cc2ad58dd3/schema/main/table/Shopapp_goodstype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="da745f51-d969-4ee8-b2ea-79a33cf5aa16">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/templates/buyerapp/goods_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="46" column="112" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyerapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

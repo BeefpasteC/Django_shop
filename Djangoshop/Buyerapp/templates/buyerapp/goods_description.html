@@ -28,7 +28,7 @@
 				<span class="show_unit">库  存：500</span>
 			</div>
             <form action="/buyer/so/" method="post">
-                {% csrf_token %}
+            {% csrf_token %}
 
 			<div class="goods_num clearfix">
 				<div class="num_name fl">数 量：</div>
@@ -88,7 +88,39 @@
 
 {% endblock %}
 {% block script %}
+
     <script  src="/static/buyerapp/js/jquery-1.12.4.min.js"></script>
+    <script>
+        $('#add_cart').click(
+            function () {
+                var count = $('#count').val();
+                var goods_id = $('#goods_id').val();
+                var csrfmiddlewaretoken = '{{ csrf_token }}';
+                var sendData = {
+                    'count':count,
+                    'goods_id':goods_id,
+                    'csrfmiddlewaretoken':csrfmiddlewaretoken
+
+                };
+                console.log(sendData);
+                var url = '/buyer/ac/';
+                $.ajax(
+                    {
+                        url: url,
+                        type: 'post',
+                        data: sendData,
+                        success:function (data) {
+                            alert(data.data)
+                        },
+                        error:function (error) {
+                            console.log(error)
+                        }
+                    }
+                )
+
+            }
+        )
+    </script>
 	<script >
 		function changeCount(ty) {
             var value = $('#count').val();
