@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Shopapp',
     'Buyerapp',
     'ckeditor',
+    'djcelery',
     'rest_framework',
     'ckeditor_uploader'
 ]
@@ -52,6 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'Djangoshop.middleware.MiddlewareTest',
 ]
 
 ROOT_URLCONF = 'Djangoshop.urls'
@@ -130,24 +132,73 @@ STATICFILES_DIRS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'static')
 
-REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES':[
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-    ],
-    'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE':5
-
-
-}
 
 # 上传图片用的模块
 CKEDITOR_UPLOAD_PATH = 'static/upload'
 CKEDITOR_IMAGE_BACKED = 'pillow'
 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES':[ #权限
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ],
+
+    'DEFAULT_RENDERER_CLASSES':( # 返回自定义内容
+        'utils.rendererresponse.CustomRenderer',
+    ),
+    'DEFAULT_FILTER_BACKENDS':(
+        'django_filters.rest_framework.DjangoFilterBackend',# django_filter自带的查询过滤器
+
+    ),
+
+    'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE':5, # 分页
+
+}
+
 # 当前项目的静态文件目录
 # STATIC_ROOT =  os.path.join(BASE_DIR,'static')
 
 
+# Django一如既往的对发送邮件也进行了封装
+# 发送邮件采用SMTP服务
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_USE_TLS = False # 使用tls方式
+
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = '1453187816@qq.com'
+EMAIL_HOST_PASSWORD = 'sjdoyeqsvlzmghac'
+DEFAULT_FROM_EMAIL = '1453187816@qq.com'
+
+
+
+# celery 配置
+import djcelery #导入django_celery模块
+djcelery.setup_loader() #进行模块加载
+BROKER_URL = 'redis://127.0.0.1:6379/1'#任务容器地址，Redis数据库地址
+CELERY_IMPORTS = ('CeleryTask.tasks')#具体的任务文件
+CELERY_TIMEZONE = 'Asia/Shanghai'#celery时区
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'#celery处理器，固定
+
+# celery 的定时器
+
+from celery.schedules import crontab
+from celery.schedules import timedelta
+
+CELERYBEAT_SCHEDULE = { # 定时器策略
+    u'测试定时器1':{ # 每隔30s运行一次
+        'task':'CeleryTask.tasks.taskExample',
+        'schedule':timedelta(seconds=30),
+        'args':(),
+    },
+    u'钉钉': {  # 每隔3s运行一次
+        'task': 'CeleryTask.tasks.dingTalk',
+        #'schedule': crontab(minute='*/1'),
+        'schedule':timedelta(seconds=3),
+        'args': (),
+    },
+}
 
 
 

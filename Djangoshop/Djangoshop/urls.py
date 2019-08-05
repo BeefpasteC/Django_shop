@@ -20,7 +20,7 @@ from django.urls import path,include,re_path
 from Buyerapp.views import index
 from Shopapp.models import *
 from Shopapp.views import *
-
+from Djangoshop.views import *
 
 
 
@@ -38,6 +38,7 @@ urlpatterns = [
     path('ckeditor/', include('ckeditor_uploader.urls')),
     re_path('^API', include(router.urls)), #restful 的根路由
     re_path('^api_auth', include('rest_framework.urls')), #接口认证
+    path('sm/', sendmail), #邮件发送
 ]
 urlpatterns += [
     re_path(r'^$',index),

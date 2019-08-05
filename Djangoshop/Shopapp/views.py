@@ -1,9 +1,10 @@
 import hashlib
-
+from django.http import HttpResponse
 from rest_framework import viewsets
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from django.http import HttpResponseRedirect
+from django_filters.rest_framework import DjangoFilterBackend #导入过滤器
 
 from Shopapp.models import *
 from Buyerapp.models import *
@@ -303,6 +304,9 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = Goods.objects.all() # 具体返回的数据
     serializer_class = UserSerializer # 指定过滤的类
 
+    filter_backends = [DjangoFilterBackend] # 采用哪个过滤器
+    filterset_fields = ['goods_name','goods_price'] #进行过滤的字段
+
 
 class TypeViewSet(viewsets.ModelViewSet):
     queryset = GoodsType.objects.all()
@@ -312,4 +316,24 @@ def ajax_goods_list(request):
 
     return render(request,'shopapp/ajax_goods_list.html')
 
+
+from CeleryTask.tasks import add
+from django.http import JsonResponse
+def get_add(request):
+    add.delay(2,3)
+    return JsonResponse({'status':200})
+
+
+#中间件测试
+def small_white_views(request):
+    print('我是小白')
+    raise TypeError('小白视图错了')
+
+
+def small_template_response(request):
+    def hello():
+        return HttpResponse('hello world')
+    rep = HttpResponse('i am rep')
+    rep.render = hello
+    return rep
 

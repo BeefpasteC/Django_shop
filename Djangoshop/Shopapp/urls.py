@@ -4,9 +4,6 @@ from Shopapp.views import *
 
 
 
-
-
-
 urlpatterns = [
     path('register/', register),# 注册
     path('login/', login),#登录
@@ -21,10 +18,13 @@ urlpatterns = [
     path('gt/', goods_type),# 商品类型
     path('ol/', order_list),# 订单
 
-    path('agl/',ajax_goods_list), # vue 接口
-
     path('dgt/', delete_goods_types),# 删除商品类型
     path('gts/', goods_type_summary),# 商品类型分类
 ]
 
-
+urlpatterns += [
+    path('agl/',ajax_goods_list), # vue 接口测试
+    path('ga/',get_add), #celery
+    path('swv/',small_white_views), #中间件测试
+    path('str/',small_template_response), #中间件测试
+]
