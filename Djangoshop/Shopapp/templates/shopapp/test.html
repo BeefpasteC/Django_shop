@@ -1,0 +1,21 @@
+{% load cache %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ request.COOKIE.valid }}
+{% if request.COOKIE.valid %}
+    <p>有cookie</p>
+{% else %}
+    <p>没有cookie</p>
+{% endif %}
+{% cache 500 hsqcache %}
+    <img src="http://img4.imgtn.bdimg.com/it/u=1348631487,3145363397&fm=26&gp=0.jpg" alt="">
+{% endcache %}
+
+
+</body>
+</html>

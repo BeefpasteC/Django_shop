@@ -27,4 +27,5 @@ urlpatterns += [
     path('ga/',get_add), #celery
     path('swv/',small_white_views), #中间件测试
     path('str/',small_template_response), #中间件测试
+    path(r'mv/',cache_page(60*15)(memcache_views)), #缓存
 ]

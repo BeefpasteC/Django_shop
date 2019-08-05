@@ -337,3 +337,23 @@ def small_template_response(request):
     rep.render = hello
     return rep
 
+#缓存
+from django.views.decorators.cache import cache_page
+from django.core.cache import cache
+@cache_page(60*15)
+#底层缓存接口
+# set 设置
+# get 获取
+# add 添加
+def memcache_views(request):
+    store_data = cache.grt('store_data')
+    if store_data:
+        store_data = store_data
+    else:
+        data = Store.objects.all()
+        cache.set('store_data',data,30)
+        store_data = data
+    return render(request,'shopapp/index.html',locals())
+
+
+

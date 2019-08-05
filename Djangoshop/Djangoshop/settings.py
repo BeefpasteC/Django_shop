@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django.middleware.cache.UpdateCacheMiddleware'
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'Djangoshop.middleware.MiddlewareTest',
+    'django.middleware.cache.FetchFromCacheMiddleware'
 ]
 
 ROOT_URLCONF = 'Djangoshop.urls'
@@ -110,15 +112,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -201,5 +203,42 @@ CELERYBEAT_SCHEDULE = { # 定时器策略
 }
 
 
+#cache需要有自己的配置，配置的结构，用global_settings里的配置
+#D:\Anaconda\envs\DjangoPath\Lib\site-packages\django\conf
+#本地缓存
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',#默认本地缓存
+#     }
+# }
+# memcache缓存
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',#声明使用memcache缓存
+#         'LOCATION':[
+#             '127.0.0.1:11211'
+#         ]#memcache
+#     }
+# }
+#Redis数据库缓存
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django_redis.cache.RedisCache',#声明使用RedisCache缓存
+#         'LOCATION':[
+#             'redis://127.0.0.1:6379/1'
+#         ],#memcache地址
+#         'OPTIONS':{
+#             'CLIENT_CLASS':'django_redis.client.DefaultClient'
+#         }
+#     }
+# }
+# sqlite数据库缓存
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+        'LOCATION':'cache_table',#存放数据库的表
+    }
+}
 
-
+CACHES_MIDDLEWARE_KEY_PREFIX = ''
+CACHES_MIDDLEWARE_SECONDS = 600
